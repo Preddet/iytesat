@@ -2,25 +2,88 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #12181f;
+
+  /* Brand — sampled from the İYTE SAT logo */
+  --color-navy-950: #001120;
+  --color-navy-900: #001d33;
+  --color-navy-800: #00304f;
+  --color-navy-700: #004272;
+  --color-navy-600: #005089;
+  --color-navy-500: #0055a8;
+  --color-navy-400: #2777c2;
+  --color-navy-300: #6ba3da;
+  --color-navy-200: #a9cbec;
+  --color-navy-100: #dcebf8;
+  --color-navy-50: #f2f8fd;
+
+  --color-coral-700: #6e0714;
+  --color-coral-600: #8a0a1b;
+  --color-coral-500: #b5061b;
+  --color-coral-400: #d42234;
+  --color-coral-300: #e8677a;
+  --color-coral-100: #fce6e9;
+  --color-coral-50: #fdf3f4;
+
+  --color-sand-50: #faf9f6;
+  --color-sand-100: #f4f2ec;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-navy-950: var(--color-navy-950);
+  --color-navy-900: var(--color-navy-900);
+  --color-navy-800: var(--color-navy-800);
+  --color-navy-700: var(--color-navy-700);
+  --color-navy-600: var(--color-navy-600);
+  --color-navy-500: var(--color-navy-500);
+  --color-navy-400: var(--color-navy-400);
+  --color-navy-300: var(--color-navy-300);
+  --color-navy-200: var(--color-navy-200);
+  --color-navy-100: var(--color-navy-100);
+  --color-navy-50: var(--color-navy-50);
+
+  --color-coral-700: var(--color-coral-700);
+  --color-coral-600: var(--color-coral-600);
+  --color-coral-500: var(--color-coral-500);
+  --color-coral-400: var(--color-coral-400);
+  --color-coral-300: var(--color-coral-300);
+  --color-coral-100: var(--color-coral-100);
+  --color-coral-50: var(--color-coral-50);
+
+  --color-sand-50: var(--color-sand-50);
+  --color-sand-100: var(--color-sand-100);
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-jakarta);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+}
+
+::selection {
+  background: var(--color-navy-500);
+  color: #fff;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-drift {
+  animation: drift 32s linear infinite;
 }
