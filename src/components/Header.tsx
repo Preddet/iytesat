@@ -46,20 +46,18 @@ export function Header() {
             width={40}
             height={35}
             className={clsx(
-              "h-9 w-auto transition-all duration-500 ease-out",
-              showBrand
-                ? "translate-y-0 opacity-100"
-                : "pointer-events-none -translate-y-2 opacity-0",
+              "h-9 w-auto translate-y-0 opacity-100 transition-all duration-500 ease-out",
+              !showBrand &&
+                "md:pointer-events-none md:-translate-y-2 md:opacity-0",
             )}
             priority
           />
           <span
             className={clsx(
-              "text-lg font-bold tracking-tight transition-all duration-500 ease-out",
+              "translate-y-0 text-lg font-bold tracking-tight opacity-100 transition-all duration-500 ease-out",
               scrolled || open ? "text-navy-950" : "text-white",
-              showBrand
-                ? "translate-y-0 opacity-100"
-                : "pointer-events-none -translate-y-2 opacity-0",
+              !showBrand &&
+                "md:pointer-events-none md:-translate-y-2 md:opacity-0",
             )}
           >
             İYTE SAT
