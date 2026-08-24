@@ -12,14 +12,19 @@ export const faqs: FaqItem[] = [
       "Hayır. Topluluğumuz hem yeni başlayanlara hem de deneyimli dalgıçlara açıktır. Brövesi olmayan üyelerimiz için temel eğitim programları düzenlenmektedir.",
   },
   {
+    question: "Eğitim ve dalış gezilerine nasıl kayıt olabiliriz?",
+    answer:
+      "Instagram ve web sitesi üzerinden yapılan duyurulardaki kayıt formunu takip ederek kayıt olabilirsiniz.",
+  },
+  {
     question: "Eğitimler ve dalışlar için ekipmanım olması gerekiyor mu?",
     answer:
-      "Hayır, temel eğitimlerde ve tanışma dalışlarında kullanılacak ekipmanlar topluluk tarafından sağlanır. İlerleyen seviyelerde kendi ekipmanınızı edinmenizi tavsiye ederiz.",
+      "Hayır, temel eğitimlerde ve tanışma dalışlarında kullanılacak ekipmanlar dalış tekneleri tarafından sağlanır. İlerleyen seviyelerde kendi ekipmanınızı edinmenizi tavsiye ederiz.",
   },
   {
     question: "Etkinlik ve dalış ücretleri var mı?",
     answer:
-      "Bazı dalış gezisi ve seyahat organizasyonlarında ulaşım/konaklama gibi maliyetler katılımcılar arasında paylaşılabilir. Güncel ücret bilgileri her etkinlik duyurusunda ayrıca belirtilir.",
+      "Eğitimlerimiz ve gezilerimizin ücretini Instagram ve web sitesi üzerinden yapılan duyurularda paylaşılan kayıt formundan öğrenebilirsiniz. Ücretler her sezon güncellenmektedir.",
   },
   {
     question: "Toplantılar ve düzenli buluşmalar ne zaman yapılıyor?",
@@ -29,7 +34,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Yüzme bilmiyorsam katılabilir miyim?",
     answer:
-      "Temel yüzme becerisine sahip olmanız güvenlik açısından önemlidir. Yüzme konusunda kendinden emin olmayan adaylarımızı önce yüzme becerilerini geliştirmeye teşvik ediyoruz.",
+      "Temel yüzme becerisine sahip olmanız güvenlik açısından önemlidir. Gerekli önlemler alınarak dalış eğitmenimizin gözetiminde eğitime devam edilip edilemeyeceğine karar verilir.",
   },
   {
     question: "Fotoğraf albümlerine nasıl ulaşabilirim?",
