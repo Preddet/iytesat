@@ -82,7 +82,7 @@ export const events: EventItem[] = [
     description:
       "Güz dönemi eğitimlerinin ilk deniz dalışları Çeşme'de gerçekleştirildi.",
     image: "/events/cesme-egitim-dalisi-2021.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1fiDa3DTtDkxlD4VexS0ozDVUo25e2YJP?usp=sharing",
   },
   {
     slug: "kas-etkinligi-2021",
@@ -93,7 +93,7 @@ export const events: EventItem[] = [
     description:
       "27-28 Kasım tarihlerinde gerçekleştirilen, uzun süredir beklenen Kaş dalış gezisi.",
     image: "/events/kas-etkinligi-2021.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1tKFi7f7bLXak-CndbV9xVohCpie1kIoa?usp=sharing",
   },
   {
     slug: "tanisma-toplantisi-2022",
@@ -115,7 +115,7 @@ export const events: EventItem[] = [
     description:
       "İYTE'nin 30. yılı anısına Marmaris'te gerçekleştirilen dalış etkinliği.",
     image: "/events/marmaris-dalis-etkinligi-2022.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/19odKaIXo5_BM_hf3jYi3mB0rKCQAzIJP?usp=sharing",
   },
   {
     slug: "ayvalik-1yildiz-egitim-2022",
@@ -126,7 +126,7 @@ export const events: EventItem[] = [
     description:
       "2022 bahar dönemi 1 Yıldız eğitim ve keşif dalışları Ayvalık'ta gerçekleştirildi.",
     image: "/events/ayvalik-1yildiz-egitim-2022.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1BZ8tlCCgKJ_IUKBNmBXP5FiHe_7T76AD?usp=sharing",
   },
   {
     slug: "topluluklar-toplaniyor-2022",
@@ -170,7 +170,7 @@ export const events: EventItem[] = [
     description:
       "1* eğitim ve 1* dalıcı gruplarının katıldığı, iki gün süren Ayvalık dalış gezisi.",
     image: "/events/ayvalik-dalis-gezisi-2023-06.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/13N7g9-DL_a2OEFVTOmv0v3Nuv5VbESaq?usp=sharing",
   },
   {
     slug: "kas-dalis-etkinligi-2023",
@@ -180,7 +180,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description: "7-8 Ekim tarihlerinde gerçekleştirilen Kaş dalış gezisi.",
     image: "/events/kas-dalis-etkinligi-2023.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1cc6C2FWIJnPh16yqihOUlV3luKf-KZWU?usp=sharing",
   },
   {
     slug: "topluluklar-toplaniyor-2023",
@@ -202,7 +202,7 @@ export const events: EventItem[] = [
     description:
       "Cumhuriyet'in 100. yılı anısına düzenlenen, pratik eğitimleri de kapsayan Ayvalık dalış gezisi.",
     image: "/events/ayvalik-cumhuriyet100-2023.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1NmcNPoDwTqL6HNckquoBogQs8xvbuamD?usp=sharing",
   },
   {
     slug: "tek-nefeste-100-yil-sergisi-2023",
@@ -224,7 +224,7 @@ export const events: EventItem[] = [
     description:
       "2023 güz eğitimlerini tamamlayan üyelere brövelerinin verildiği etkinlik.",
     image: "/events/brove-toreni-2023.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1-05moMMrjWkzsurXqxzaAvU6Jlp2bNxb?usp=sharing",
   },
   {
     slug: "marmaris-dalis-gezisi-2023",
@@ -234,7 +234,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description: "1* ve 2* dalıcıların katıldığı, yılın son dalış gezisi.",
     image: "/events/marmaris-dalis-gezisi-2023.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1sh5eyxPA1ISocQlS6RfwgbyGPVRPUM2t?usp=sharing",
   },
   {
     slug: "kas-dalis-gezisi-2024-03",
@@ -245,7 +245,7 @@ export const events: EventItem[] = [
     description:
       "Bahar döneminin ilk dalış gezisi, 1* ve 2* dalgıçlarla Kaş'ta gerçekleştirildi.",
     image: "/events/kas-dalis-gezisi-2024-03.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1-0ArNnosby6lgAmHyXA919eq-fERTpTa?usp=sharing",
   },
   {
     slug: "denizin-sirri-projesi-2024",
@@ -299,7 +299,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description: "Güz döneminin ilk dalışı, 2* eğitimini kapsayan Ayvalık gezisi.",
     image: "/events/ayvalik-dalis-gezisi-2024-10.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1--5LRWKB81-kO3M6l0zmHXFmAV7NUR8h?usp=sharing",
   },
   {
     slug: "topluluklar-toplaniyor-2024",
@@ -331,7 +331,7 @@ export const events: EventItem[] = [
     category: "Eğitim",
     description: "Güz dönemi 1 Yıldız dalıcı eğitimleri Ayvalık'ta tamamlandı.",
     image: "/events/ayvalik-1yildiz-egitim-2024-11.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1D7SYR7DlT0PSGoOcL9ZBMkQ-7-uM7l79?usp=sharing",
   },
   {
     slug: "kas-dalis-gezisi-2024-12",
@@ -341,7 +341,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description: "4 dalış ve keyifli etkinliklerle dolu Kaş dalış gezisi.",
     image: "/events/kas-dalis-gezisi-2024-12.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1-Cj1CbBkTfMuhEcDXGzmN6tajlWtEm_s?usp=sharing",
   },
   {
     slug: "brove-gecesi-2025-02",
@@ -363,7 +363,7 @@ export const events: EventItem[] = [
     description:
       "Teorik eğitimleri İYTE Kampüsü'nde, pratik dalışları Ayvalık'ta gerçekleştirilen CMAS 1 Yıldız Dalıcı Eğitimi.",
     image: "/events/cmas-1yildiz-egitimi-2025.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1FPayMV9VDelOCKhS48BVls5hoSBkUvt8?usp=sharing",
   },
   {
     slug: "seferihisar-gece-dalisi-2025",
@@ -373,7 +373,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description: "2 Yıldız eğitimi kapsamında gerçekleştirilen gece dalışı.",
     image: "/events/seferihisar-gece-dalisi-2025.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/134GHKL5m5VTmQI-TM6OUjwnB62wvE4Fm?usp=sharing",
   },
   {
     slug: "sualti-gunleri-2025",
@@ -394,7 +394,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description: "17-18 Mayıs tarihlerinde gerçekleştirilen Marmaris dalış etkinliği.",
     image: "/events/marmaris-dalis-etkinligi-2025.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1Aem9uUfzXYQdSzvMftUa0I9p9tGiPaqh?usp=sharing",
   },
   {
     slug: "karaburun-sezon-finali-2025",
@@ -404,7 +404,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description: "Sezonun son dalışı olarak Karaburun'da gerçekleştirilen etkinlik.",
     image: "/events/karaburun-sezon-finali-2025.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1QbVxOlsIWjItHxaZUcL3WI2PVPlGSsyw?usp=sharing",
   },
   {
     slug: "seferihisar-dalisi-2025-08",
@@ -414,7 +414,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description: "Unutulmaz bir dalış deneyimi yaşanan Seferihisar etkinliği.",
     image: "/events/seferihisar-dalisi-2025-08.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1PRBAaoyy6O_s0c8AZHsPDoDgIXIheGuC?usp=sharing",
   },
   {
     slug: "ssi-advanced-adventurer-2025",
@@ -425,7 +425,7 @@ export const events: EventItem[] = [
     description:
       "SSI Advanced Adventurer eğitimini tamamlayan dalıcıların kutlandığı etkinlik.",
     image: "/events/ssi-advanced-adventurer-2025.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1-3Kz8AQ9U-o8-WVVa_YvJRaER1oIHHmv?usp=sharing",
   },
   {
     slug: "fethiye-dalis-gezisi-2025",
@@ -435,7 +435,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description: "4-5 Ekim tarihlerinde gerçekleştirilen Fethiye dalış gezisi.",
     image: "/events/fethiye-dalis-gezisi-2025.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1SwhEVchGq_7msdnNaVPgCvTIzzCmX4RZ?usp=sharing",
   },
   {
     slug: "owd-egitimi-2025-10",
@@ -446,7 +446,7 @@ export const events: EventItem[] = [
     description:
       "3 gün teorik, 3 gün pratik olarak Seferihisar'da gerçekleştirilen SSI OWD eğitimi.",
     image: "/events/owd-egitimi-2025-10.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/11a96DGYNhsck-6fWWCj6CtezZcGdWvtj?usp=sharing",
   },
   {
     slug: "topluluklar-toplaniyor-2025",
@@ -467,7 +467,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description: "9 Kasım'da gerçekleştirilen Seferihisar dalış etkinliği.",
     image: "/events/seferihisar-dalisi-2025-11.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1qkhkaNdtkJ1AHKXHeGfaVejGY99urE7X?usp=sharing",
   },
   {
     slug: "sualti-bilimleri-toplantisi-2025",
@@ -499,7 +499,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description: "6-7 Aralık tarihlerinde gerçekleştirilen Kaş dalış gezisi.",
     image: "/events/kas-dalis-gezisi-2025-12.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1q91rY6VBdewH7sZHvOc9WfHfcmKJjbbF?usp=sharing",
   },
   {
     slug: "bahar-donemi-bulusmasi-2026",
@@ -520,7 +520,7 @@ export const events: EventItem[] = [
     description:
       "Teknik dalış, sualtı arkeolojisi ve su altı görüntü yönetmenliği konularında konuşmacıların yer aldığı ikinci 'Dalgaların İçinden' konferansı.",
     image: "/events/dalgalarin-icinden-2-2026.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/13rvyCnY70n3zDLWcpqC5-fgXASg51WHI?usp=sharing",
   },
   {
     slug: "marmaris-dalisi-2026",
@@ -531,7 +531,7 @@ export const events: EventItem[] = [
     description:
       "2026 sezonunun ilk dalışı olarak bröveli üyelerle gerçekleştirilen Marmaris gezisi.",
     image: "/events/marmaris-dalisi-2026.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1wMsveh2Gl6a8e8WdQZS2G1tO504TYQi0?usp=sharing",
   },
   {
     slug: "19-mayis-cesme-dalisi",
@@ -542,7 +542,7 @@ export const events: EventItem[] = [
     description:
       "Atatürk'ü Anma, Gençlik ve Spor Bayramı'nda günübirlik iki dalışla suyun altında bayrağımızı açıyoruz.",
     image: "/events/19-mayis-cesme-dalisi.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1G5bZL8R_4c7aQ4m-UVdKWjy4EsSf9QaJ?usp=sharing",
   },
   {
     slug: "karaburun-dalisi",
@@ -552,7 +552,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description: "Günübirlik iki dalışla gerçekleştirdiğimiz Karaburun etkinliği.",
     image: "/events/karaburun-dalisi.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1K-3BIAibgWZHR9suzp6gyvo-PLKni--3?usp=sharing",
   },
   {
     slug: "karaburun-dalisi-2026-06-14",
@@ -562,7 +562,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description: "6 Haziran'daki gezinin ardından tekrarlanan Karaburun dalış etkinliği.",
     image: "/events/karaburun-dalisi-2026-06-14.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1GlKsJdLK0XudCPNflSCZJ5LTZM-m1NkI?usp=sharing",
   },
   {
     slug: "liman-temizligi-2026",
@@ -584,7 +584,7 @@ export const events: EventItem[] = [
     description:
       "20 Nisan'da başlayan, teorik ve pratik dalışlardan oluşan SSI Open Water Diver eğitimi başarıyla tamamlandı.",
     image: "/events/owd-egitimi-2026.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1p1SfGObSBImTPGPj2r6YtIPbnV4RCyYJ?usp=sharing",
   },
   {
     slug: "cesme-dalisi-donem-kapanisi",
@@ -595,6 +595,6 @@ export const events: EventItem[] = [
     description:
       "Günübirlik iki dalışla dönemin son dalışında bir araya geldiğimiz etkinlik.",
     image: "/events/cesme-dalisi-donem-kapanisi.jpg",
-    albumUrl: "#",
+    albumUrl: "https://drive.google.com/drive/folders/1fJjhkiQ7f77lcb2pQf0ylfnrc6nMedBB?usp=sharing",
   },
 ];
