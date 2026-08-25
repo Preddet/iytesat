@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw Instagram data export (source material, not site assets)
+/media
+/your_instagram_activity

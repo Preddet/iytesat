@@ -24,27 +24,60 @@ function formatDate(date: string) {
 }
 
 export function EventsExplorer({ events }: { events: EventItem[] }) {
-  const [active, setActive] = useState<(typeof categories)[number]>("Tümü");
+  const years = useMemo(() => {
+    const unique = Array.from(
+      new Set(events.map((e) => new Date(e.date).getFullYear())),
+    );
+    return unique.sort((a, b) => b - a);
+  }, [events]);
+
+  const [activeYear, setActiveYear] = useState<number>(
+    () => years[0] ?? new Date().getFullYear(),
+  );
+  const [activeCategory, setActiveCategory] =
+    useState<(typeof categories)[number]>("Tümü");
 
   const filtered = useMemo(() => {
-    const list =
-      active === "Tümü" ? events : events.filter((e) => e.category === active);
+    const list = events.filter((e) => {
+      const matchesYear = new Date(e.date).getFullYear() === activeYear;
+      const matchesCategory =
+        activeCategory === "Tümü" || e.category === activeCategory;
+      return matchesYear && matchesCategory;
+    });
     return [...list].sort(
       (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
     );
-  }, [events, active]);
+  }, [events, activeYear, activeCategory]);
 
   return (
     <div>
       <div className="flex flex-wrap gap-2">
+        {years.map((year) => (
+          <button
+            key={year}
+            type="button"
+            onClick={() => setActiveYear(year)}
+            className={clsx(
+              "rounded-full px-4 py-2 text-sm font-semibold transition-colors",
+              activeYear === year
+                ? "bg-coral-500 text-white"
+                : "bg-navy-50 text-navy-700 hover:bg-navy-100",
+            )}
+          >
+            {year}
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-4 flex flex-wrap gap-2">
         {categories.map((cat) => (
           <button
             key={cat}
             type="button"
-            onClick={() => setActive(cat)}
+            onClick={() => setActiveCategory(cat)}
             className={clsx(
               "rounded-full border px-4 py-2 text-sm font-medium transition-colors",
-              active === cat
+              activeCategory === cat
                 ? "border-navy-900 bg-navy-900 text-white"
                 : "border-navy-950/12 text-neutral-600 hover:border-navy-900/40",
             )}
@@ -91,7 +124,7 @@ export function EventsExplorer({ events }: { events: EventItem[] }) {
 
         {filtered.length === 0 && (
           <p className="col-span-full py-16 text-center text-neutral-500">
-            Bu kategoride henüz etkinlik bulunmuyor.
+            {activeYear} yılında bu kategoride henüz etkinlik bulunmuyor.
           </p>
         )}
       </div>
