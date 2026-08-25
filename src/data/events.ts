@@ -281,6 +281,17 @@ export const events: EventItem[] = [
     albumUrl: "#",
   },
   {
+    slug: "ayvalik-bahar-egitim-gezisi-2024-05",
+    title: "Ayvalık Bahar Eğitim Gezisi",
+    date: "2024-05-18",
+    location: "Ayvalık, Balıkesir",
+    category: "Eğitim",
+    description:
+      "Bahar dönemi eğitim grubunun katıldığı, 18-19 Mayıs tarihlerinde gerçekleştirilen Ayvalık dalış gezisi.",
+    image: "/events/ayvalik-bahar-egitim-gezisi-2024-05.jpg",
+    albumUrl: "https://drive.google.com/drive/folders/1tM9e2hVuqaEzrNGcu6_8A2-WVi7uIEbh?usp=sharing",
+  },
+  {
     slug: "liman-temizligi-2024",
     title: "Liman Temizliği",
     date: "2024-06-05",
