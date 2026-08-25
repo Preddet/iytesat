@@ -26,6 +26,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Kulübü ve açılacak dalış kurslarını tanıtan tanışma ve bilgilendirme toplantısı.",
+    image: "/events/tanisma-toplantisi-2017.jpg",
     albumUrl: "#",
   },
   {
@@ -36,6 +37,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description:
       "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı'nda gerçekleştirilen deneme dalışı etkinliği.",
+    image: "/events/karaburun-deneme-dalisi-2018.jpg",
     albumUrl: "#",
   },
   {
@@ -46,6 +48,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Tüplü dalış ve serbest dalış kursları hakkında eğitmen sunumuyla bilgilendirme toplantısı.",
+    image: "/events/tanisma-toplantisi-2018.jpg",
     albumUrl: "#",
   },
   {
@@ -56,6 +59,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Tüplü dalış ve serbest dalış kursları hakkında bilgilendirme toplantısı.",
+    image: "/events/tanisma-toplantisi-2019.jpg",
     albumUrl: "#",
   },
   {
@@ -66,6 +70,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description:
       "SADOS Academy ve Uçan Balık Dalış Merkezi iş birliğiyle gerçekleştirilen dalış etkinliği.",
+    image: "/events/ucanbalik-dalis-etkinligi-2019.jpg",
     albumUrl: "#",
   },
   {
@@ -76,6 +81,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "2019-2020 bahar döneminin ilk yönetim kurulu toplantısı gerçekleştirildi.",
+    image: "/events/bahar-donemi-yk-toplantisi-2020.jpg",
     albumUrl: "#",
   },
   {
@@ -86,6 +92,7 @@ export const events: EventItem[] = [
     category: "Eğitim",
     description:
       "Güz dönemi eğitimlerinin ilk deniz dalışları Çeşme'de gerçekleştirildi.",
+    image: "/events/cesme-egitim-dalisi-2021.jpg",
     albumUrl: "#",
   },
   {
@@ -96,6 +103,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description:
       "27-28 Kasım tarihlerinde gerçekleştirilen, uzun süredir beklenen Kaş dalış gezisi.",
+    image: "/events/kas-etkinligi-2021.jpg",
     albumUrl: "#",
   },
   {
@@ -106,6 +114,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Bahar dönemi tüplü dalış kursları hakkında online tanışma ve bilgilendirme toplantısı.",
+    image: "/events/tanisma-toplantisi-2022.jpg",
     albumUrl: "#",
   },
   {
@@ -116,6 +125,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description:
       "İYTE'nin 30. yılı anısına Marmaris'te gerçekleştirilen dalış etkinliği.",
+    image: "/events/marmaris-dalis-etkinligi-2022.jpg",
     albumUrl: "#",
   },
   {
@@ -126,6 +136,7 @@ export const events: EventItem[] = [
     category: "Eğitim",
     description:
       "2022 bahar dönemi 1 Yıldız eğitim ve keşif dalışları Ayvalık'ta gerçekleştirildi.",
+    image: "/events/ayvalik-1yildiz-egitim-2022.jpg",
     albumUrl: "#",
   },
   {
@@ -136,6 +147,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Yeni üyelerin kaydolduğu, topluluğun tanıtıldığı 'Topluluklar Toplanıyor' etkinliği standı.",
+    image: "/events/topluluklar-toplaniyor-2022.jpg",
     albumUrl: "#",
   },
   {
@@ -146,6 +158,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "2022 güz eğitimlerini tamamlayan üyelere brövelerinin verildiği etkinlik.",
+    image: "/events/brove-toreni-2022.jpg",
     albumUrl: "#",
   },
   {
@@ -156,6 +169,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "BESCO ile ortaklaşa düzenlenen, Efe Akçakayalıoğlu'nun konuşmacı olduğu konferans ve 'Sualtı Biyoçeşitliliği' fotoğraf sergisi.",
+    image: "/events/sualti-cesitliligi-konferansi-2023.jpg",
     albumUrl: "#",
   },
   {
@@ -166,6 +180,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description:
       "1* eğitim ve 1* dalıcı gruplarının katıldığı, iki gün süren Ayvalık dalış gezisi.",
+    image: "/events/ayvalik-dalis-gezisi-2023-06.jpg",
     albumUrl: "#",
   },
   {
@@ -175,6 +190,7 @@ export const events: EventItem[] = [
     location: "Kaş, Antalya",
     category: "Dalış Gezisi",
     description: "7-8 Ekim tarihlerinde gerçekleştirilen Kaş dalış gezisi.",
+    image: "/events/kas-dalis-etkinligi-2023.jpg",
     albumUrl: "#",
   },
   {
@@ -185,6 +201,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Yeni üyelerin topluluğa kaydolduğu 'Topluluklar Toplanıyor' etkinliği standı.",
+    image: "/events/topluluklar-toplaniyor-2023.jpg",
     albumUrl: "#",
   },
   {
@@ -195,6 +212,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description:
       "Cumhuriyet'in 100. yılı anısına düzenlenen, pratik eğitimleri de kapsayan Ayvalık dalış gezisi.",
+    image: "/events/ayvalik-cumhuriyet100-2023.jpg",
     albumUrl: "#",
   },
   {
@@ -205,6 +223,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Efe Akçakayalıoğlu'nun fotoğraflarından oluşan, Cumhuriyet'in 100. yılına adanmış fotoğraf sergisi.",
+    image: "/events/tek-nefeste-100-yil-sergisi-2023.jpg",
     albumUrl: "#",
   },
   {
@@ -215,6 +234,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "2023 güz eğitimlerini tamamlayan üyelere brövelerinin verildiği etkinlik.",
+    image: "/events/brove-toreni-2023.jpg",
     albumUrl: "#",
   },
   {
@@ -224,6 +244,7 @@ export const events: EventItem[] = [
     location: "Marmaris, Muğla",
     category: "Dalış Gezisi",
     description: "1* ve 2* dalıcıların katıldığı, yılın son dalış gezisi.",
+    image: "/events/marmaris-dalis-gezisi-2023.jpg",
     albumUrl: "#",
   },
   {
@@ -234,6 +255,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description:
       "Bahar döneminin ilk dalış gezisi, 1* ve 2* dalgıçlarla Kaş'ta gerçekleştirildi.",
+    image: "/events/kas-dalis-gezisi-2024-03.jpg",
     albumUrl: "#",
   },
   {
@@ -244,6 +266,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "İlkokul ve anaokullarında sualtı dünyasını ve deniz kirliliğini anlatan sosyal sorumluluk projesi.",
+    image: "/events/denizin-sirri-projesi-2024.jpg",
     albumUrl: "#",
   },
   {
@@ -254,6 +277,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Efe Akçakayalıoğlu'nun sergisiyle birlikte gerçekleştirilen UNESCO Su Sempozyumu.",
+    image: "/events/unesco-su-sempozyumu-2024.jpg",
     albumUrl: "#",
   },
   {
@@ -264,6 +288,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Sualtı fotoğrafçılığı ve dalış üzerine konuşmacıların yer aldığı, topluluğun ilk 'Dalgaların İçinden' semineri.",
+    image: "/events/dalgalarin-icinden-1-2024.jpg",
     albumUrl: "#",
   },
   {
@@ -274,6 +299,7 @@ export const events: EventItem[] = [
     category: "Çevre",
     description:
       "Dünya Çevre Günü'nde Menderes İlçe Tarım ve Orman Müdürlüğü projesi kapsamında gerçekleştirilen liman temizliği.",
+    image: "/events/liman-temizligi-2024.jpg",
     albumUrl: "#",
   },
   {
@@ -283,6 +309,7 @@ export const events: EventItem[] = [
     location: "Ayvalık, Balıkesir",
     category: "Dalış Gezisi",
     description: "Güz döneminin ilk dalışı, 2* eğitimini kapsayan Ayvalık gezisi.",
+    image: "/events/ayvalik-dalis-gezisi-2024-10.jpg",
     albumUrl: "#",
   },
   {
@@ -293,6 +320,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Yeni üyelerin topluluğa katıldığı 'Topluluklar Toplanıyor' etkinliği standı.",
+    image: "/events/topluluklar-toplaniyor-2024.jpg",
     albumUrl: "#",
   },
   {
@@ -303,6 +331,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "2024 bahar eğitimlerini tamamlayan üyelere brövelerinin verildiği etkinlik.",
+    image: "/events/brove-toreni-2024.jpg",
     albumUrl: "#",
   },
   {
@@ -312,6 +341,7 @@ export const events: EventItem[] = [
     location: "Ayvalık, Balıkesir",
     category: "Eğitim",
     description: "Güz dönemi 1 Yıldız dalıcı eğitimleri Ayvalık'ta tamamlandı.",
+    image: "/events/ayvalik-1yildiz-egitim-2024-11.jpg",
     albumUrl: "#",
   },
   {
@@ -321,6 +351,7 @@ export const events: EventItem[] = [
     location: "Kaş, Antalya",
     category: "Dalış Gezisi",
     description: "4 dalış ve keyifli etkinliklerle dolu Kaş dalış gezisi.",
+    image: "/events/kas-dalis-gezisi-2024-12.jpg",
     albumUrl: "#",
   },
   {
@@ -331,6 +362,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Bröve almaya hak kazanan üyelerin kutlandığı Bröve Gecesi etkinliği.",
+    image: "/events/brove-gecesi-2025-02.jpg",
     albumUrl: "#",
   },
   {
@@ -341,6 +373,7 @@ export const events: EventItem[] = [
     category: "Eğitim",
     description:
       "Teorik eğitimleri İYTE Kampüsü'nde, pratik dalışları Ayvalık'ta gerçekleştirilen CMAS 1 Yıldız Dalıcı Eğitimi.",
+    image: "/events/cmas-1yildiz-egitimi-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -350,6 +383,7 @@ export const events: EventItem[] = [
     location: "Seferihisar, İzmir",
     category: "Dalış",
     description: "2 Yıldız eğitimi kapsamında gerçekleştirilen gece dalışı.",
+    image: "/events/seferihisar-gece-dalisi-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -360,6 +394,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Uludağ Üniversitesi Sualtı Topluluğu'nun düzenlediği 18. Sualtı Günleri'ne katılım sağlandı.",
+    image: "/events/sualti-gunleri-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -369,6 +404,7 @@ export const events: EventItem[] = [
     location: "Marmaris, Muğla",
     category: "Dalış Gezisi",
     description: "17-18 Mayıs tarihlerinde gerçekleştirilen Marmaris dalış etkinliği.",
+    image: "/events/marmaris-dalis-etkinligi-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -378,6 +414,7 @@ export const events: EventItem[] = [
     location: "Karaburun, İzmir",
     category: "Dalış",
     description: "Sezonun son dalışı olarak Karaburun'da gerçekleştirilen etkinlik.",
+    image: "/events/karaburun-sezon-finali-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -387,6 +424,7 @@ export const events: EventItem[] = [
     location: "Seferihisar, İzmir",
     category: "Dalış",
     description: "Unutulmaz bir dalış deneyimi yaşanan Seferihisar etkinliği.",
+    image: "/events/seferihisar-dalisi-2025-08.jpg",
     albumUrl: "#",
   },
   {
@@ -397,6 +435,7 @@ export const events: EventItem[] = [
     category: "Eğitim",
     description:
       "SSI Advanced Adventurer eğitimini tamamlayan dalıcıların kutlandığı etkinlik.",
+    image: "/events/ssi-advanced-adventurer-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -406,6 +445,7 @@ export const events: EventItem[] = [
     location: "Fethiye, Muğla",
     category: "Dalış Gezisi",
     description: "4-5 Ekim tarihlerinde gerçekleştirilen Fethiye dalış gezisi.",
+    image: "/events/fethiye-dalis-gezisi-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -416,6 +456,7 @@ export const events: EventItem[] = [
     category: "Eğitim",
     description:
       "3 gün teorik, 3 gün pratik olarak Seferihisar'da gerçekleştirilen SSI OWD eğitimi.",
+    image: "/events/owd-egitimi-2025-10.jpg",
     albumUrl: "#",
   },
   {
@@ -426,6 +467,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Yeni üyelerin topluluğa kaydolduğu 'Topluluklar Toplanıyor' etkinliği standı.",
+    image: "/events/topluluklar-toplaniyor-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -435,6 +477,7 @@ export const events: EventItem[] = [
     location: "Seferihisar, İzmir",
     category: "Dalış",
     description: "9 Kasım'da gerçekleştirilen Seferihisar dalış etkinliği.",
+    image: "/events/seferihisar-dalisi-2025-11.jpg",
     albumUrl: "#",
   },
   {
@@ -445,6 +488,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Boğaziçi Üniversitesi'nde düzenlenen Sualtı Bilimleri ve Teknoloji Toplantısı'na katılım sağlandı.",
+    image: "/events/sualti-bilimleri-toplantisi-2025.jpg",
     albumUrl: "#",
   },
   {
@@ -455,6 +499,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Bröve almaya hak kazanan üyelerin kutlandığı Bröve Gecesi etkinliği.",
+    image: "/events/brove-gecesi-2025-11.jpg",
     albumUrl: "#",
   },
   {
@@ -464,6 +509,7 @@ export const events: EventItem[] = [
     location: "Kaş, Antalya",
     category: "Dalış Gezisi",
     description: "6-7 Aralık tarihlerinde gerçekleştirilen Kaş dalış gezisi.",
+    image: "/events/kas-dalis-gezisi-2025-12.jpg",
     albumUrl: "#",
   },
   {
@@ -473,6 +519,7 @@ export const events: EventItem[] = [
     location: "İYTE Kampüsü",
     category: "Sosyal",
     description: "Üyelerin bir araya geldiği bahar dönemi buluşması.",
+    image: "/events/bahar-donemi-bulusmasi-2026.jpg",
     albumUrl: "#",
   },
   {
@@ -483,6 +530,7 @@ export const events: EventItem[] = [
     category: "Sosyal",
     description:
       "Teknik dalış, sualtı arkeolojisi ve su altı görüntü yönetmenliği konularında konuşmacıların yer aldığı ikinci 'Dalgaların İçinden' konferansı.",
+    image: "/events/dalgalarin-icinden-2-2026.jpg",
     albumUrl: "#",
   },
   {
@@ -493,6 +541,7 @@ export const events: EventItem[] = [
     category: "Dalış Gezisi",
     description:
       "2026 sezonunun ilk dalışı olarak bröveli üyelerle gerçekleştirilen Marmaris gezisi.",
+    image: "/events/marmaris-dalisi-2026.jpg",
     albumUrl: "#",
   },
   {
@@ -503,6 +552,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description:
       "Atatürk'ü Anma, Gençlik ve Spor Bayramı'nda günübirlik iki dalışla suyun altında bayrağımızı açıyoruz.",
+    image: "/events/19-mayis-cesme-dalisi.jpg",
     albumUrl: "#",
   },
   {
@@ -512,6 +562,7 @@ export const events: EventItem[] = [
     location: "Karaburun, İzmir",
     category: "Dalış",
     description: "Günübirlik iki dalışla gerçekleştirdiğimiz Karaburun etkinliği.",
+    image: "/events/karaburun-dalisi.jpg",
     albumUrl: "#",
   },
   {
@@ -521,6 +572,7 @@ export const events: EventItem[] = [
     location: "Karaburun, İzmir",
     category: "Dalış",
     description: "6 Haziran'daki gezinin ardından tekrarlanan Karaburun dalış etkinliği.",
+    image: "/events/karaburun-dalisi-2026-06-14.jpg",
     albumUrl: "#",
   },
   {
@@ -531,6 +583,7 @@ export const events: EventItem[] = [
     category: "Çevre",
     description:
       "Menderes İlçe Tarım ve Orman Müdürlüğü projesi kapsamında, Deniz Polisi ve Jandarma Sualtı Arama Kurtarma katılımıyla gerçekleştirilen liman temizleme etkinliği.",
+    image: "/events/liman-temizligi-2026.jpg",
     albumUrl: "#",
   },
   {
@@ -541,6 +594,7 @@ export const events: EventItem[] = [
     category: "Eğitim",
     description:
       "20 Nisan'da başlayan, teorik ve pratik dalışlardan oluşan SSI Open Water Diver eğitimi başarıyla tamamlandı.",
+    image: "/events/owd-egitimi-2026.jpg",
     albumUrl: "#",
   },
   {
@@ -551,6 +605,7 @@ export const events: EventItem[] = [
     category: "Dalış",
     description:
       "Günübirlik iki dalışla dönemin son dalışında bir araya geldiğimiz etkinlik.",
+    image: "/events/cesme-dalisi-donem-kapanisi.jpg",
     albumUrl: "#",
   },
 ];

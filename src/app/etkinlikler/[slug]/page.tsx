@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -88,8 +89,19 @@ export default async function EventDetailPage({
       <section className="py-16 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
           <div>
-            <div className="relative flex h-56 items-center justify-center rounded-2xl bg-gradient-to-br from-navy-800 to-navy-600 sm:h-72">
-              <ImageIcon className="text-white/40" size={48} />
+            <div className="relative flex h-56 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-navy-800 to-navy-600 sm:h-72">
+              {event.image ? (
+                <Image
+                  src={event.image}
+                  alt={event.title}
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 60vw, 100vw"
+                  priority
+                />
+              ) : (
+                <ImageIcon className="text-white/40" size={48} />
+              )}
             </div>
             <p className="mt-8 text-base leading-relaxed text-neutral-700">
               {event.description}

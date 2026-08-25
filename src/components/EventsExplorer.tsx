@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { clsx } from "clsx";
 import { Image as ImageIcon, MapPin, ExternalLink } from "lucide-react";
@@ -94,8 +95,18 @@ export function EventsExplorer({ events }: { events: EventItem[] }) {
             href={`/etkinlikler/${event.slug}`}
             className="group flex flex-col overflow-hidden rounded-2xl border border-navy-950/8 bg-white shadow-sm shadow-navy-950/5 transition-shadow hover:shadow-md"
           >
-            <div className="relative flex h-36 items-center justify-center bg-gradient-to-br from-navy-800 to-navy-600">
-              <ImageIcon className="text-white/40" size={32} />
+            <div className="relative flex h-36 items-center justify-center overflow-hidden bg-gradient-to-br from-navy-800 to-navy-600">
+              {event.image ? (
+                <Image
+                  src={event.image}
+                  alt={event.title}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                />
+              ) : (
+                <ImageIcon className="text-white/40" size={32} />
+              )}
               <span className="absolute top-3 left-3 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-navy-900">
                 {event.category}
               </span>

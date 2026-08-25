@@ -44,7 +44,9 @@ function formatDate(date: string) {
 }
 
 export default function Home() {
-  const featured = events.slice(0, 3);
+  const featured = [...events]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
 
   return (
     <>
@@ -142,8 +144,18 @@ export default function Home() {
                 href={`/etkinlikler/${event.slug}`}
                 className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm shadow-navy-950/5 transition-shadow hover:shadow-md"
               >
-                <div className="relative flex h-40 items-center justify-center bg-gradient-to-br from-navy-800 to-navy-600">
-                  <ImageIcon className="text-white/40" size={36} />
+                <div className="relative flex h-40 items-center justify-center overflow-hidden bg-gradient-to-br from-navy-800 to-navy-600">
+                  {event.image ? (
+                    <Image
+                      src={event.image}
+                      alt={event.title}
+                      fill
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    />
+                  ) : (
+                    <ImageIcon className="text-white/40" size={36} />
+                  )}
                   <span className="absolute top-3 left-3 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-navy-900">
                     {event.category}
                   </span>
