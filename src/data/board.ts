@@ -9,6 +9,7 @@ export type Member = {
   grade?: string;
   email?: string;
   image?: string;
+  imagePosition?: string;
 };
 
 export const executiveBoard: Member[] = [
@@ -60,6 +61,7 @@ export const executiveBoard: Member[] = [
     department: "Kimya Mühendisliği",
     grade: "3. Sınıf",
     image: "/umut.jpg",
+    imagePosition: "center 12%",
   },
   {
     name: "Ahmet Özer Şanlı",

@@ -20,11 +20,13 @@ const palettes = [
 export function Avatar({
   name,
   image,
+  imagePosition = "center",
   className,
   seed = 0,
 }: {
   name: string;
   image?: string;
+  imagePosition?: string;
   className?: string;
   seed?: number;
 }) {
@@ -36,7 +38,13 @@ export function Avatar({
           className,
         )}
       >
-        <Image src={image} alt={name} fill className="object-cover" />
+        <Image
+          src={image}
+          alt={name}
+          fill
+          className="object-cover"
+          style={{ objectPosition: imagePosition }}
+        />
       </div>
     );
   }

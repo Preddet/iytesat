@@ -22,7 +22,12 @@ export function MemberGrid({
     >
       {members.map((member, i) => (
         <div key={member.name + i} className="text-center">
-          <Avatar name={member.name} image={member.image} seed={i} />
+          <Avatar
+            name={member.name}
+            image={member.image}
+            imagePosition={member.imagePosition}
+            seed={i}
+          />
           <p
             className={clsx(
               "mt-3 font-semibold text-navy-950",
