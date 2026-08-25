@@ -63,17 +63,6 @@ export const events: EventItem[] = [
     albumUrl: "#",
   },
   {
-    slug: "ucanbalik-dalis-etkinligi-2019",
-    title: "Uçan Balık Dalış Etkinliği",
-    date: "2019-11-06",
-    location: "Uçan Balık Dalış Merkezi",
-    category: "Dalış",
-    description:
-      "SADOS Academy ve Uçan Balık Dalış Merkezi iş birliğiyle gerçekleştirilen dalış etkinliği.",
-    image: "/events/ucanbalik-dalis-etkinligi-2019.jpg",
-    albumUrl: "#",
-  },
-  {
     slug: "bahar-donemi-yk-toplantisi-2020",
     title: "Bahar Dönemi İlk Yönetim Kurulu Toplantısı",
     date: "2020-03-03",
