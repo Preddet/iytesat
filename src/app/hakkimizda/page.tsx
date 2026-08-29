@@ -3,7 +3,8 @@ import { PageHero } from "@/components/PageHero";
 import { Container } from "@/components/Container";
 import { SectionHeading } from "@/components/SectionHeading";
 import { MemberGrid } from "@/components/MemberGrid";
-import { executiveBoard, auditBoard, instructors } from "@/data/board";
+import { BoardSection } from "@/components/BoardSection";
+import { boardTerms, instructors } from "@/data/board";
 
 export const metadata: Metadata = {
   title: "Hakkımızda",
@@ -57,29 +58,7 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      <section id="yonetim-kurulu" className="scroll-mt-32 bg-sand-50 py-20 sm:py-24">
-        <Container>
-          <SectionHeading
-            title="Yönetim Kurulu"
-            description="Topluluğumuzun güncel dönem yönetim kurulu üyeleri."
-          />
-          <div className="mt-10">
-            <MemberGrid members={executiveBoard} />
-          </div>
-        </Container>
-      </section>
-
-      <section id="denetim-kurulu" className="scroll-mt-32 py-20 sm:py-24">
-        <Container>
-          <SectionHeading
-            title="Denetim Kurulu"
-            description="Topluluğun tüzük ve yönetmeliklere uygun işleyişini denetleyen kurul üyeleri."
-          />
-          <div className="mt-10">
-            <MemberGrid members={auditBoard} />
-          </div>
-        </Container>
-      </section>
+      <BoardSection terms={boardTerms} />
 
       <section id="egitmen" className="scroll-mt-32 bg-sand-50 py-20 sm:py-24">
         <Container>
